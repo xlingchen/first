@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/allmuiseooocss.css" />
+		<link rel="stylesheet" href="../css/textfont.css" />
+		<link rel="stylesheet" href="../css/icon.css" />
+		<link rel="stylesheet" href="../css/firstooocss.css" />
+		<script type="text/javascript" src="../libs/jquery-1.11.1.js" ></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+		<!--<script type="text/javascript" src="../js/otherjs.js" ></script>-->
+
+	</head>
+	<body>
+		
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation"> 
+		        	<h4 class="navbar-text text-center xl black" >
+		        		<div class="search icon" id="sort"></div>随时听
+					</h4>	
+		</nav>
+		<div class="panel panel-default">
+			    <div class="panel-body">
+			    	
+			    	<img class="allmuise-icon" src="../img/all-1.jpg">
+			        <strong class="m allmuise-icon-text gray">哈哈 ,晚上好</strong>
+			       
+			        
+			        <hr style="margin:110px 0 20px 0;" />
+			        <h3 class=" allmuise-body">现在，你想听多长时间?</h3>
+			         <p class="m  allmuise-body-lite gray">点击时间,接下来让得到为你服务</p>
+		        	
+		        	<p class=" allmuise-body-time">
+		        		<br><span style="color: white;font-size: 60px;vertical-align:middle;">30</span><br>
+		        		<span style="color: white;font-size:15px;position: relative;top:-14px;">分钟</span>
+		        	</p>
+		        	
+		        	<p class="allmuise-body-time1">
+						<br><span  style="font-size: 30px;vertical-align:middle;position: relative;top:-5px;">15</span><br>
+		        		<span class="gray" style="font-size:12px;position: relative;top:-17px;">分钟</span>
+		        	</p>
+		        	<p class="allmuise-body-time2">
+						<br><span style="font-size: 30px;vertical-align:middle;position: relative;top:-5px;">60</span><br>
+		        		<span class="gray" style="font-size:12px;position: relative;top:-17px;">分钟</span>
+		        	</p>
+		        	<p class="allmuise-body-time3">
+						<br><span  style="font-size: 30px;vertical-align:middle;position: relative;top:-5px;">2</span><br>
+		        		<span class="gray" style="font-size:12px;position: relative;top:-17px;">小时</span>
+		        	</p>
+			    </div>
+		</div>
+		
+		
+		<nav class="navbar navbar-default navbar-fixed-bottom" style="height: 40px;">
+		   <table class="s gray"  style="width: 100%;">
+		  		<tr style=" line-height:1px;">
+		  			<td style="padding-left:3px;" id="nav-1"><img class="my-d-icon" src="../img/d1.png"></td>
+		  			<td id="nav-2"><img class="my-d-icon" src="../img/d2.png"></td>
+		  			<td id="nav-3" style="text-align:center; "><img class="my-d-icon" src="../img/d3.png">&nbsp;</td>
+		  			<td id="nav-4" style="text-align:center; "><img class="my-d-icon" src="../img/d4.png"></td>
+		  			<td  id="nav-5" style="text-align:center; "> <img class="my-d-icon" src="../img/d5.png"></td>
+		  		</tr>
+		  		<tr style=" line-height:7px;">
+		  			<td style="padding-left:10px;">首页</td>
+		  			<td style="padding-left:10px;">订阅</td>
+		  			<td style="text-align:center; ">随时听</td>
+		  			<td style="text-align: center; padding-left: 8px;">已购</td>
+		  			<td  style=" text-align: center;">我</td>
+		  		</tr>
+		  	</table>
+	</nav>
+	<script>
+		
+	$(document).ready(function(){	
+			$("#sort").click(function(){
+			window.location.href="soct.html";	
+			});
+		    $("#nav-1").click(function(){	
+						window.location.href="first.html";
+				});
+			$("#nav-2").click(function(){	
+						window.location.href="subbook.html";
+				});
+			$("#nav-4").click(function(){	
+						window.location.href="buy.html";
+				});
+			$("#nav-5").click(function(){	
+						window.location.href="myedit.html";
+				});
+});
+	</script>
+		<!--<table>
+			<tr>
+				<td><div id="id_contant_icon1"></div></td>
+				<td><div class="icon-dowl-1214" ></div></td>
+				<td><div class="p1215" ></div></td>
+				<td><div class="p1216" ></div></td>
+			</tr>
+			<tr>
+				<td><div class="icon-absol-1211"></div></td>
+				<td><div class="icon-2d-1210"></div> </td>
+				<td><div class="icon-sun-1213" ></div></td>
+				<td><div id="id_p0103"></div></td>
+			</tr>
+			<tr>
+				<td><div class="id_p1217"></div></td>
+				<td><div class="icon-dowl-1214" ></div></td>
+				<td><div class="p1215" ></div></td>
+				<td><div class="p1216" ></div></td>
+			</tr>
+			<tr>
+				<td><div id="id_contant_icon2"></div></td>
+				<td><div id="id_contant_icon3"></div></td>
+				<td><div id="id_contant_icon4" ></div></td>
+				<td><div id="id_contant_icon5" ></div></td>
+			</tr>
+				<tr>
+				<td><div id="id_contant_icon6"></div></td>
+				<td><div id="id_contant_icon7"></div></td>
+				<td><div></div></td>
+				<td><div class="id_footer_icon1"></div></td>
+			</tr>
+				<tr>
+				<td><div class="id_footer_icon2"></div></td>
+				<td><div class="id_footer_icon3"></div></td>
+				<td><div class="id_footer_icon4" ></div></td>
+				<td><div class="id_footer_icon5" ></div></td>
+			</tr>
+		</table>-->
+	</body>
+</html>

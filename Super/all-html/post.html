@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/textfont.css" />
+		<link rel="stylesheet" href="../css/icon.css" />
+		<script type="text/javascript" src="../libs/jquery-1.11.1.js" ></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="../js/otherjs.js" ></script>
+		<style type="text/css">
+			form{
+				margin: auto 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<input type="text" class="text" value="123" />
+			 <input type="password"  class="password"  value="123" /><br />
+			 <input type="button" class="post" value="登录" />
+			 
+		</form>
+		<p></p>
+	<script>
+	
+		$(document).ready(function(){
+			$(".post").click(function(){
+				var name=$(".text").val();//这个是得到name
+				var passward=$(".password").val();
+				alert("name"+name+"<br/>"+"password"+passward);				
+				if(str.length==0){
+					$("p").innerText("meiyooshuru");
+				}
+				else
+					var XMLHttp=new XMLHttpRequest();
+					XMLHttp.open("GET","allmuise.html",true);
+					XMLHttp.send(null);
+					$("p").innerText("hhd");
+			});
+		});
+	</script>
+	</body>
+</html>
+<!--<form class="bs-example bs-example-form" role="form">
+		<div class="input-group">			
+			<input type="text" class="form-control" placeholder="twitterhandle">
+		</div>
+		<br>
+		<div class="input-group">
+			<span class="input-group-addon">密码</span>
+			<input type="text" class="form-control">
+			
+		</div>
+		<br>
+		<div class="input-group">
+			<span class="input-group-addon">$</span>
+			<input type="text" class="form-control">
+			<span class="input-group-addon">.00</span>
+		</div>
+	</form>-->

@@ -1,0 +1,62 @@
+body,html{margin: 0;padding: 0;}
+*{margin: 0;padding: 0;}
+.myfont-white{color: white;}
+.myfont-black{color: black;}
+.myfont-red{color: red;}
+.myfont-gray{color: darkgray;}
+.mybg-white{background-color: white;}
+
+.mybg-red{background-color: red;}
+.mybg-blue{background-image: url(../img/bg.png);background-repeat: repeat;}
+.mybg-lightgray{background-color:#F5F5F5}
+.mybg-gray{background-color: gray;}
+.mybg-blackgray{background-color: #888888;}
+.myfont-xxl{font-size: 60px;}
+.myfont-xl{font-size:30px;}
+.myfont-l{font-size: 15px;}
+.myfont-m{font-size: 13px;}
+.myfont-s{font-size: 10px;}
+.myfont-xs{font-size:8px;}
+big{color: red}
+ul li{list-style: none;}
+
+nav{height:60px;}
+.navbar-brand{width:30%;height: 30px;position:absolute;text-align: center;}
+nav ul{width:80%;height:60px;position:absolute;right: 7%;}
+nav ul li{width:90px;padding: 0;}
+nav ul li a{padding: 0;}
+
+.coop{color: white;background-color:red;margin:10px;padding:5px;height: 30px;}
+
+nav ul li img{width:25px;height: 2px;margin-top: -3px;}
+.media{width: 100%;height: 1250px;margin-top: -20px;}
+
+.media-heading{padding: 0 7%;height:300px;width: 100%;}
+.media-heading img{width:300px;height: 150px;margin: 75px 0;}
+.media-heading ul{padding: 75px 0 0 7%;}
+
+.media-body{position: absolute;padding:0 7%;width:100%;margin-top: -5px;}
+.media-body ul li{width: 25%;float: left;border: 1px solid white;text-align: center;margin: 20px 0;}
+.media-body img{margin: 15px;}
+
+h5 img{width: 55px;height: 2px;}
+.media-list{width:86%;height: 800px;margin-top:250px;margin-left: 7%;}
+.media-list table{height:90px;}
+.media-list .nav{background-color: lightgray;}
+
+.list-group-item-heading{margin: 20px 0 20px 20px;}
+.list-group-item-text{margin:20px ;}
+.list-group-item-text{speak-numeral: continuous;}
+.btn-danger{position: absolute;top: 50%;right:10%;margin-top: -12px;padding:5px 9px;}
+.list-group-item{border:1px solid white;}
+.list-group-item:last-child{width:5%;}
+
+.list-group{margin-left:0px;width: 100%;}
+.fromto{margin-top:-12px;margin-left: 20px;padding:0px;text-align: center;width:65px;}
+.fromto sup{float: right;margin-top:6px;color: red;}
+.fromto p{margin-top:-12px;padding:9px;border:2px solid firebrick;border-radius: 100%;border-bottom: 2px solid gainsboro;width:50px;height: 50px;text-align: center;}
+.fromto sub{float:right;margin-top: -12px;color:lightgray;}
+
+footer{height: 70px;color:#CCDDFF;}
+footer img{width: 7%;height: 20px;margin: 7px 0;}
+

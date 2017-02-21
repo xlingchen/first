@@ -1,0 +1,93 @@
+body{
+	width: 100%;
+	background-color:#F5F5F5;
+	font-family:sans-serif;
+	padding-top: 50px;
+}
+*{
+	font-family:sans-serif;
+}
+.xxl{
+		color:#444444;
+		font-size: 18px;
+		font-weight: bold;
+}
+.xl{
+	font-weight: bold;
+	font-size: 18px;
+}
+.l{
+	font-size: 16px;
+	font-weight: 400;
+}
+.m{
+	font-size: 14px;
+}
+.s{
+	font-size: 13px;
+}
+.xs{
+	font-size: 10px;
+}
+.black{
+	color: #000000;
+}
+.gray{
+	color:#999999;
+}
+.brown{
+	color: #996600;
+	
+}
+.red{
+	color: #FF9900;
+}
+.littergray{
+	/*color: #F5F5F5;*/
+}
+.litterwhite{
+	color: #F5F5F5;
+	
+}
+.mymargin-top{
+	margin-top: 7px;
+}
+.pull-right{
+	padding-top: 3px;
+}
+.mybtn{
+	border-radius:15px;
+	width:70px;
+	margin-right: 10px;
+	border: 1px solid darkorange;
+
+	margin-top: -15px;
+}
+.myicon{
+	width:28px;
+	height:32px;
+}
+.my-l-icon{
+	margin-top: -8px;
+	margin-left:20px;
+	width: 39px;
+	height: 36px;
+	
+}
+.my-d-icon{
+	margin-top:0px;
+	margin-left: 6px;
+	width: 32px;
+	height: 32px;
+}
+.my-bf-icon{
+	margin-top:28px;
+	width:60px;
+	height:60px;
+}
+.my-xs-icon{
+	width:25px;
+	height:28px;
+	margin-top: -7px;
+}
+

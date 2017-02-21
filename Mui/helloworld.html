@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>helloworld</title>
+		<link rel="stylesheet" href="css/android.css">
+		<link rel="stylesheet" href="css/mui.min.css">
+		<!--标准mui.css-->
+	
+			<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="css/app.css"/>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav" style="padding-right:15px;">
+			
+			<a class=" mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<span style="font-size: 22px;  padding: 10px; float: left;">|</span>
+			<h1 style="float: left; font-size: 17px; padding-top: 9px;">时尚轻纺</h1>
+
+		</header>
+
+		<div id="slider" class="mui-slider" >
+			<div class="mui-slider-group mui-slider-loop">
+				
+				<!-- 第一张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="../images/shuijiao.jpg">
+					</a>
+				</div>
+				<!-- 第二张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="../images/muwu.jpg">
+					</a>
+				</div>
+				<!-- 第三张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="../images/cbd.jpg">
+					</a>
+				</div>
+				<!-- 第四张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="../images/yuantiao.jpg">
+					</a>
+				</div>
+				
+			</div>
+			<div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init({
+				swipeBack:true //启用右滑关闭功能
+			});
+			var slider = mui("#slider");
+			document.getElementById("switch").addEventListener('toggle', function(e) {
+				if (e.detail.isActive) {
+					slider.slider({
+						interval: 5000http://127.0.0.1:8020/Mui/examples/slider-default.html#
+					});http://127.0.0.1:8020/Mui/examples/slider-default.html#
+				} else {
+					slider.slider({
+						interval: 0
+					});
+				}
+			});
+		</script>
+				<div  style="background-color:white;">
+					<img style=" left: ; "   class="mui-pull-left image1" src="img/aa.jpg"/>
+					<p style="padding-top: 6px;border-left: 20px; ">设计师</p>
+					$399.9<br />
+					<span style="padding-right: 10px;">123人点赞</span>
+					<span style="padding-right: 10px;">100人收藏</span>
+					<span style="padding-right: 10px;" >55人喜欢</span>
+				</div>
+				<div style="background-color: white; margin-top: 5px; ">
+					<img style=" left: ; "   class="mui-pull-left image1" src="img/aa.jpg"/>
+					<p style="padding-top: 6px; border-left: 20px; ">设计师</p>
+					<p style="height: 60px;">
+					<span style="padding: 10px; float: left;">123<br />全部作品    </span>
+					<span style="font-size: 30px; padding: 10px; float: left;">|</span>
+					<span style="padding: 10px; float: left;">100<br />全部专辑   </span>
+					<span style="font-size: 30px; padding: 10px; float: left;">|</span>
+					<span style="padding: 10px; float: left;" >55<br />全部专辑 </span>
+					<span style="font-size: 30px; padding: 10px; float: left;">|</span>
+					</p>
+				</div>
+				<div style="background-color: white; ">
+					<p style=";">bcvnbc</p>
+					<p style="height: 60px;">
+					<span style="padding: 10px; float: left;">全部作品    </span>
+					<span style="font-size: 25px; padding: 10px; float: left;">|</span>
+					<span style="padding: 10px; float: left;">全部专辑   </span>
+					<span style="font-size:25px; padding: 10px; float: left;">|</span>
+					<span style="padding: 10px; float: left;" >全部专辑 </span>
+					<span style="font-size: 25px; padding: 10px; float: left;">|</span>
+					</p>
+					<table border="1" bordercolor="#AAA"  width="100%">
+						<col style="width: 30%; height: 27px;"  />
+						<col style="width: 70%;" />
+						
+					<tr>
+					      <td>作品名称 </td>
+					      <td ></td>
+					</tr>
+					<tr>
+					      <td>作者名称 </td>
+					      <td ></td>
+					</tr>
+					<tr>
+					      <td>作品名称 </td>
+					      <td ></td>
+					</tr>
+					</table>
+					
+				</div>
+				<div style="background-color: white; margin-top: 6px; ">
+					<table border="1" width="100%" bordercolor="#AAA">
+						<col style="width: 30%; height: 27px;"  />
+						<col style="width: 70%;" />
+						
+					<tr>
+					      <td>风格 </td>
+					      <td ></td>
+					</tr>
+					<tr>
+					      <td>分类</td>
+					      <td ></td>
+					</tr>
+					<tr>
+					      <td>色彩 </td>
+					      <td ></td>
+					</tr>
+					</table>
+				</div>
+				<div style="background-color: white; margin-top: 6px; ">
+					<table border="1" width="100%" bordercolor="#AAA">
+						<col style="width: 30%; height: 40px; "  />
+						<col style="width: 70%;" />
+						
+					<tr>
+					      <td>面料 </td>
+					      <td ></td>
+					</tr>
+					<tr>
+					      <td>款式</td>
+					      <td ></td>
+					</tr>
+					<tr>
+					      <td>描述</td>
+					      <td ></td>
+					</tr>
+					</table>
+				</div>
+				<div style="background-color: white; margin-top: 6px; ">
+					<ul class="mui-table-view">
+						 <li class="mui-table-view-cell">Item 1</li>
+						 <li class="mui-table-view-cell">Item 1
+						  	  <img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+						  	
+						  </li>
+					    <li class="mui-table-view-cell mui-media">
+					        <a href="javascript:;">
+					            <img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+					            <div class="mui-media-body">
+					                幸福
+					                <p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+					            </div>
+					        </a>
+					    </li>
+					    <li class="mui-table-view-cell mui-media">
+					        <a href="javascript:;">
+					            <img class="mui-media-object mui-pull-left" src="../images/muwu.jpg">
+					            <div class="mui-media-body">
+					                木屋
+					                <p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+					            </div>
+					        </a>
+					    </li>
+					    <li class="mui-table-view-cell mui-media">
+					        <a href="javascript:;">
+					            <img class="mui-media-object mui-pull-left" src="../images/cbd.jpg">
+					            <div class="mui-media-body">
+					                CBD
+					                <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+					            </div>
+					        </a>
+					    </li>
+					</ul>
+				</div>
+					<a><span class="mui-icon mui-icon-weibo"></span></a>
+					<a><span class="mui-icon mui-icon-weixin"></span></a>
+					<a><span class="mui-icon mui-icon-pengyouquan"></span></a>
+					<a><span class="mui-icon mui-icon-chat"></span></a>
+					<a><span class="mui-icon mui-icon-qq"></span></a>
+		</div>
+	</body>
+</html>

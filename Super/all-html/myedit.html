@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- 引入 Bootstrap -->
+      <link href="../css/bootstrap.min.css" rel="stylesheet">
+      	<link rel="stylesheet" href="../css/icon.css">
+      	<link href="../css/textfont.css" rel="stylesheet">
+		<link rel="stylesheet" href="../css/firstooocss.css" />
+
+      	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="../libs/jquery-1.11.1.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<!--因为对于这个不是首页的页面都放在 所以引用的是otherjs-->
+		<!--<script src="../js/otherjs.js"></script>-->
+		<style>
+			span{
+				position: absolute;left: 85px;
+			}
+			ul li:first{
+				text-align: center;
+				background-color: aqua;
+			}
+			.myicon{
+				width:30%;
+				height:100px;
+				margin:10px 35%;
+				border-radius: 100%;
+				
+			}
+		</style>
+		<title></title>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation"> 
+		        	<h4 class="navbar-text text-center xl black" >
+		        		<div class="arrow-left icon" id="father" ></div>
+		        		编辑资料
+		        		
+		        	</h4>	
+				     
+		</nav>
+		<ul class="list-group" >
+			<li class="list-group-item"> <img class="myicon" id="post" src="../img/111.jpg" /> </li>
+			<li class="list-group-item" style="margin-top: 7px;">昵称 : <span> 席月喜</span></li>
+			<li class="list-group-item">性别 :<span> 女</span></li>
+			<li class="list-group-item">出身年份 :<span> 2014</span></li>
+			<li class="list-group-item" style="margin-top: 7px;">学历 :<span> 专科</span></li>
+			<li class="list-group-item">行业 :<span>互联网</span></li>
+			<li class="list-group-item">职业 :<span>程序员</span></li>
+		</ul>
+		<nav class="navbar navbar-default navbar-fixed-bottom" style="height: 40px;">
+		   <table class="s gray"  style="width: 100%;">
+		  		<tr style=" line-height:1px;">
+		  			<td style="padding-left:3px;" id="nav-1"><img class="my-d-icon" src="../img/d1.png"></td>
+		  			<td id="nav-2"><img class="my-d-icon" src="../img/d2.png"></td>
+		  			<td id="nav-3" style="text-align:center; "><img class="my-d-icon" src="../img/d3.png">&nbsp;</td>
+		  			<td id="nav-4" style="text-align:center; "><img class="my-d-icon" src="../img/d4.png"></td>
+		  			<td  id="nav-5" style="text-align:center; "> <img class="my-d-icon" src="../img/d5.png"></td>
+		  		</tr>
+		  		<tr style=" line-height:7px;">
+		  			<td style="padding-left:10px;">首页</td>
+		  			<td style="padding-left:10px;">订阅</td>
+		  			<td style="text-align:center; ">随时听</td>
+		  			<td style="text-align: center; padding-left: 8px;">已购</td>
+		  			<td  style=" text-align: center;">我</td>
+		  		</tr>
+		  	</table>
+	</nav>
+	<script>
+		
+	$(document).ready(function(){	
+			$("#father").click(function(){
+			window.history.back();
+	        });
+		    $("#nav-1").click(function(){	
+						window.location.href="first.html";
+				});
+			$("#nav-2").click(function(){	
+						window.location.href="subbook.html";
+				});
+			$("#nav-3").click(function(){	
+						window.location.href="allmuise.html";
+				});
+			$("#nav-4").click(function(){	
+						window.location.href="buy.html";
+				});
+});
+	</script>
+	</body>
+</html>

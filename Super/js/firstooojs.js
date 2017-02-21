@@ -1,0 +1,77 @@
+
+//	alert("ahahch");
+//window.open("Url地址","_blank") = window.open("Url地址");
+//如果在iframe中，_blank改成_parent，就是在被嵌套iframe的哪个页面打开
+
+$(document).ready(function(){	
+	$("#sort").click(function(){
+			window.location.href="soct.html";	
+	});
+	$("#playing").click(function(){
+			window.location.href="yingping.html";	
+	});
+//导航栏的点击事件
+	$("td:eq(0)").click(function(){
+			$("td:eq(0)").children().css({"background-color":"darkkhaki","border":"2px solid red"});
+			$("td:eq(5)").css("background-color","hotpink");
+	});
+	$("td:eq(1)").click(function(){
+				window.location.href="myoomain.html";	
+	});
+	$("td:eq(2)").click(function(){
+			alert("22");
+	});
+	$("td:eq(3)").click(function(){
+			alert("33");
+	});
+	$("td:eq(4)").click(function(){
+			window.location.href="quanbu.html";	
+	});
+//新闻列表组的点击事件
+	$("#list-item-1").click(function(){
+				window.location.href="quanbuooonew.html";
+		});
+	$("#list-item-2").click(function(){			
+			$("#list-item-1").css("color","slategray");
+			$("#list-item-3").css("color","slategray");
+			$("#list-item-4").css("color","slategray");
+			$("#list-item-5").css("color","slategray");
+			$("#list-item-2").css("color","red");
+		});
+	$("#list-item-3").click(function(){
+			$("#list-item-2").css("color","slategray");
+			$("#list-item-3").css("color","red");
+		});
+	$("#list-item-4").click(function(){
+				alert("3内容");
+		});
+	$("#list-item-5").click(function(){
+				alert("4内容");
+		});
+	$("#list-item-6").click(function(){
+				alert("5内容");
+		});
+	$("#list-item-7").click(function(){
+				alert("7内容");
+		});
+	$("#change").click(function(){
+				$("#media_li_header").text("我是换后的");
+				$("#media_li_small").text("我是换后的");
+				$("#media_li_footer").text("我是换后的");
+		});
+	$(".my-d-icon").eq(0).click(function(){	
+				
+		});
+	$(".my-d-icon").eq(1).click(function(){	
+				window.location.href="subbook.html";
+		});
+	$(".my-d-icon").eq(2).click(function(){	
+				window.location.href="allmuise.html";
+		});
+	$(".my-d-icon").eq(3).click(function(){	
+				window.location.href="buy.html";
+		});
+	$(".my-d-icon").eq(4).click(function(){	
+				window.location.href="myedit.html";
+		});
+});

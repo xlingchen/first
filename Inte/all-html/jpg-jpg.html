@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<!-- 引入 Bootstrap -->
+      <link href="../css/bootstrap.min.css" rel="stylesheet">
+      	<link rel="stylesheet" href="../css/icon.css">
+      	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="../libs/jquery-1.11.1.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<title></title>
+		<style>
+			
+		</style>
+	</head>
+	<body>
+		<li class="media ">
+       		 <a class="pull-left" href="#">
+            <img src="../img/l4.png">
+       		 </a>
+	        <div class="media-body">
+	        	<p class="pull-right m red">$199/年</p>
+	            <h4  class="media-heading l" id="media_li_header">伯凡.日知录</h6>
+	            <p class="media-object m gray"  id="media_li_small">自我迭代者的学习小组</p>
+	            <small style="margin: 5px 0; "  type="button" class="btn btn-default minbtn xs">8小时更新</small>
+	            <p class="s" id="media_li_footer">本周问答 | 微软最近在做什么?</p>
+	        </div>
+    	</li>
+		
+		<button>加载文件</button>
+		<script>
+			$(document).ready(function(){
+					$("button").click(function(){
+						$("#media_li_header").load("../libs/test.txt #p1");
+						$("#media_li_small").load("../libs/test.txt #p2");
+						$("#media_li_footer").load("../libs/test.txt #p3");
+					});
+			});
+		</script>
+	</body>
+</html>

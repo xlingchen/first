@@ -1,0 +1,8 @@
+/*普通鼠标悬停css*/
+.bt1.dropdown-toggle{position: absolute;margin:0px auto;padding: 0;width: 30%;}
+.ul1.dropdown-menu{position: absolute;margin-left: 50px;margin-top: 73px;}
+.li1{float: left;border: none;}
+.li1{background-color: gold;}
+
+/*.anim img{position: relative;}
+.nav-ul-li{float: left;}*/

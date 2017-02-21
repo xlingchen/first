@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/subbookoocss.css" />
+		<link rel="stylesheet" href="../css/textfont.css" />
+		<link rel="stylesheet" href="../css/icon.css" />
+		<link href="../css/firstooocss.css" rel="stylesheet">
+		<script type="text/javascript" src="../libs/jquery-1.11.1.js" ></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+		
+		<!--<script type="text/javascript" src="../js/otherjs.js" ></script>-->
+	<style>
+	
+.slide-div{position: absolute; height:100px; overflow:hidden;width:200px;}
+.slide-ul{  position:relative; width: 600px;height: 100px overflow:hidden; margin-left:-400px;}
+.slide-li{display:block;width:200px;list-style-type:none;}
+.hidden{display: none;}
+	</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation"> 
+		        	<h4 class="navbar-text text-center xl black" >
+		        		<div class="arrow-left icon"  id="father" ></div>
+		        		<div class="left-align icon pull-right" id="playing"></div>
+		        		<span class="subbook_headl active" >已订</span>
+		        		<span class="subbook_headr">推荐</span>
+		        	</h4>	
+		</nav>
+		<div class="panel panel-default   mymargin-top">
+			    <div class="panel-body">
+			    	<img class="xiaolai-icon" src="../img/r2.png">
+			        <strong class="xxl">通往财富自由之路</strong>
+			        <!--<span class="pull-right l brown"> ></span>-->
+			        <img class="my-d-icon pull-right" src="../img/y.png">
+			        <hr style="margin:0 0 10px 0;" />
+			         <p class="xxl">预告 |让我们"摇摆不定"的根本原因是什么?<br />
+		        	<span class="m gray">16小时前 192819人读过</span>
+		        	<span class="pull-right m gray"> &nbsp;899&nbsp;</span>
+		        	<img class="my-xs-icon pull-right" src="../img/zan.png"></p>
+		        	<img class="xiaolai-contain" src="../img/11.jpg">
+		        	<span class="s gray">当我们在讨论长期的时候，我们在讨论什么?</span><br />
+		        	<span class="pull-right l brown ">阅读全文</span>
+			    </div>
+		</div>
+		<div class="panel panel-default   mymargin-top">
+			    <div class="panel-body">
+			    	<img class="xiaolai-icon" src="../img/r2.png">
+			        <strong class="xxl">通往财富自由之路</strong>
+			        
+			        <img class="my-d-icon pull-right" src="../img/y.png">
+			        <hr style="margin:0 0 10px 0;" />
+			         <p class="xxl">预告 |让我们"摇摆不定"的根本原因是什么?<br />
+		        	<span class="m gray">16小时前 192819人读过</span>
+		        	<span class="pull-right m gray"> &nbsp;899&nbsp;</span>
+		        	<img class="my-xs-icon pull-right" src="../img/zan.png"></p>
+		        	<img class="xiaolai-contain" src="../img/11.jpg">
+		        	<span class="s gray">当我们在讨论长期的时候，我们在讨论什么?</span><br />
+		        	<span class="pull-right l brown ">阅读全文</span>
+			    </div>
+		</div>
+		<div style="height: 50px;">
+			 .
+		</div>
+		<nav class="navbar navbar-default navbar-fixed-bottom" style="height: 40px;">
+		   <table class="s gray"  style="width: 100%;">
+		  		<tr style=" line-height:1px;">
+		  			<td style="padding-left:3px;" id="nav-1"><img class="my-d-icon" src="../img/d1.png"></td>
+		  			<td id="nav-2"><img class="my-d-icon" src="../img/d2.png"></td>
+		  			<td id="nav-3" style="text-align:center; "><img class="my-d-icon" src="../img/d3.png">&nbsp;</td>
+		  			<td id="nav-4" style="text-align:center; "><img class="my-d-icon" src="../img/d4.png"></td>
+		  			<td  id="nav-5" style="text-align:center; "> <img class="my-d-icon" src="../img/d5.png"></td>
+		  		</tr>
+		  		<tr style=" line-height:7px;">
+		  			<td style="padding-left:10px;">首页</td>
+		  			<td style="padding-left:10px;">订阅</td>
+		  			<td style="text-align:center; ">随时听</td>
+		  			<td style="text-align: center; padding-left: 8px;">已购</td>
+		  			<td  style=" text-align: center;">我</td>
+		  		</tr>
+		  	</table>
+	</nav>
+	<script>
+		
+	$(document).ready(function(){	
+			$("#father").click(function(){
+					window.history.back();
+			});
+			$("#playing").click(function(){
+				
+			});
+		    $("#nav-1").click(function(){	
+						window.location.href="first.html";
+				});
+			$("#nav-3").click(function(){	
+						window.location.href="allmuise.html";
+				});
+			$("#nav-4").click(function(){	
+						window.location.href="buy.html";
+				});
+			$("#nav-5").click(function(){	
+						window.location.href="myedit.html";
+				});
+});
+	</script>
+	</body>
+</html>

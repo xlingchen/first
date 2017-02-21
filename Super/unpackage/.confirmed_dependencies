@@ -1,0 +1,283 @@
+{
+	"all-html/bootsdemo.html": {
+		"resources": [
+			"img/2.jpg",
+			"libs/jquery-1.11.1.js",
+			"img/1.jpg",
+			"img/11.jpg",
+			"js/bootstrap.min.js",
+			"css/icon.css",
+			"img/111.jpg",
+			"css/demo.css",
+			"css/bootstrap.min.css",
+			"js/myjavascript.js"
+		],
+		"refer": [
+			"all-html/demo.html",
+			"all-html/soct.html"
+		]
+	},
+	"index.html": {
+		"refer": [
+			"all-html/bootsdemo.html",
+			"all-html/first.html"
+		],
+		"resources": [
+			"all-html/first.html"
+		]
+	},
+	"all-html/demo.html": {
+		"resources": [
+			"img/s.png",
+			"css/textfont.css",
+			"css/mui.min.css",
+			"img/16.jpg",
+			"css/p-layout.css",
+			"img/色卡.jpg"
+		]
+	},
+	"all-html/soct.html": {
+		"resources": [
+			"js/otherjs.js",
+			"libs/jquery-1.11.1.js",
+			"js/bootstrap.min.js",
+			"css/icon.css",
+			"css/bootstrap.min.css",
+			"css/soctooocss.css",
+			"js/firstooojs.js"
+		],
+		"refer": [
+			"all-html/bootsdemo.html"
+		]
+	},
+	"all-html/first.html": {
+		"resources": [
+			"img/2.jpg",
+			"libs/jquery-1.11.1.js",
+			"img/1.jpg",
+			"img/11.jpg",
+			"js/bootstrap.min.js",
+			"css/icon.css",
+			"img/111.jpg",
+			"css/demo.css",
+			"js/firstooojs.js",
+			"css/bootstrap.min.css",
+			"css/firstooocss.css",
+			"css/textfont.css",
+			"img/31.jpg",
+			"img/sort.png",
+			"img/yp.png",
+			"img/l3.png",
+			"img/l4.png",
+			"img/l1.png",
+			"img/l5.png",
+			"img/l2.png",
+			"img/d5.png",
+			"img/d2.png",
+			"img/d4.png",
+			"img/d3.png",
+			"img/d1.png",
+			"img/bf.png",
+			"img/zan.png",
+			"img/dowl.png",
+			"img/y.png",
+			"img/zy.png",
+			"img/s.png",
+			"img/32.jpg",
+			"img/34.jpg",
+			"img/33.jpg",
+			"img/book8.png",
+			"img/r2.png",
+			"img/book1.png",
+			"img/book6.png",
+			"img/book5.png",
+			"img/book3.png",
+			"img/book4.png",
+			"img/r3.png",
+			"img/book2.png",
+			"img/r1.png",
+			"all-html/allmuise.html",
+			"all-html/subbook.html",
+			"img/n2.jpg",
+			"img/n1.jpg",
+			"img/n4.jpg",
+			"img/n3.jpg",
+			"all-html/quanbu.html"
+		],
+		"refer": [
+			"all-html/soct.html",
+			"all-html/yingping.html",
+			"all-html/neirong.html",
+			"all-html/quanbu.html",
+			"all-html/quanbuooonew.html",
+			"all-html/myedit.html",
+			"all-html/allmuise.html",
+			"all-html/subbook.html",
+			"all-html/buy.html"
+		]
+	},
+	"all-html/yingping.html": {
+		"resources": [
+			"js/otherjs.js"
+		]
+	},
+	"all-html/neirong.html": {
+		"resources": [
+			"js/otherjs.js",
+			"libs/jquery-1.11.1.js",
+			"js/bootstrap.min.js",
+			"css/icon.css",
+			"css/demo.css",
+			"css/bootstrap.min.css"
+		]
+	},
+	"all-html/quanbu.html": {
+		"resources": [
+			"js/otherjs.js",
+			"libs/jquery-1.11.1.js",
+			"js/bootstrap.min.js",
+			"css/icon.css",
+			"css/bootstrap.min.css",
+			"css/quanbu.css",
+			"img/2.jpg",
+			"css/textfont.css",
+			"css/firstooocss.css"
+		]
+	},
+	"all-html/quanbuooonew.html": {
+		"resources": [
+			"js/otherjs.js",
+			"libs/jquery-1.11.1.js",
+			"js/bootstrap.min.js",
+			"css/icon.css",
+			"css/bootstrap.min.css",
+			"css/quanbuooonewocss.css",
+			"css/textfont.css",
+			"img/l1.png",
+			"img/yp.png",
+			"img/l5.png"
+		],
+		"refer": [
+			"all-html/yingping.html"
+		]
+	},
+	"all-html/myedit.html": {
+		"resources": [
+			"js/otherjs.js",
+			"libs/jquery-1.11.1.js",
+			"css/textfont.css",
+			"img/yp.png",
+			"js/bootstrap.min.js",
+			"css/icon.css",
+			"css/bootstrap.min.css",
+			"img/111.jpg",
+			"img/d5.png",
+			"img/d2.png",
+			"img/d4.png",
+			"img/d3.png",
+			"img/d1.png",
+			"css/firstooocss.css",
+			"all-html/first.html"
+		],
+		"refer": [
+			"all-html/first.html",
+			"all-html/subbook.html"
+		]
+	},
+	"all-html/allmuise.html": {
+		"resources": [
+			"css/textfont.css",
+			"img/yp.png",
+			"css/icon.css",
+			"css/bootstrap.min.css",
+			"libs/jquery-1.11.1.js",
+			"js/otherjs.js",
+			"js/bootstrap.min.js",
+			"css/allmuiseooocss.css",
+			"img/bf.png",
+			"img/d5.png",
+			"img/d2.png",
+			"img/d4.png",
+			"img/d3.png",
+			"img/d1.png",
+			"css/firstooocss.css",
+			"all-html/subbook.html",
+			"img/r2.png",
+			"img/11.jpg",
+			"img/zan.png",
+			"img/y.png",
+			"img/all-1.jpg",
+			"all-html/soct.html",
+			"all-html/myedit.html"
+		],
+		"refer": [
+			"all-html/subbook.html",
+			"all-html/myedit.html",
+			"all-html/soct.html"
+		]
+	},
+	"all-html/subbook.html": {
+		"resources": [
+			"libs/jquery-1.11.1.js",
+			"css/textfont.css",
+			"js/otherjs.js",
+			"img/1.jpg",
+			"img/11.jpg",
+			"js/bootstrap.min.js",
+			"css/icon.css",
+			"img/111.jpg",
+			"css/bootstrap.min.css",
+			"all-html/first.html",
+			"css/allmuiseooocss.css",
+			"css/subbookoocss.css",
+			"img/dowl.png",
+			"img/zan.png",
+			"img/r2.png",
+			"img/y.png",
+			"img/d5.png",
+			"img/d2.png",
+			"img/d4.png",
+			"img/d3.png",
+			"img/d1.png",
+			"css/firstooocss.css",
+			"js/firstooojs.js",
+			"all-html/quanbu.html",
+			"all-html/myedit.html",
+			"all-html/yingping.html",
+			"all-html/allmuise.html"
+		],
+		"refer": [
+			"all-html/first.html",
+			"all-html/myoomain.html",
+			"all-html/quanbu.html",
+			"all-html/myedit.html",
+			"all-html/allmuise.html",
+			"all-html/yingping.html",
+			"all-html/buy.html"
+		]
+	},
+	"all-html/buy.html": {
+		"resources": [
+			"img/book2.png",
+			"libs/jquery-1.11.1.js",
+			"css/textfont.css",
+			"img/book3.png",
+			"js/bootstrap.min.js",
+			"css/firstooocss.css",
+			"css/icon.css",
+			"css/bootstrap.min.css",
+			"img/book1.png",
+			"img/d5.png",
+			"all-html/myedit.html",
+			"img/d2.png",
+			"img/d4.png",
+			"img/d3.png",
+			"img/d1.png",
+			"all-html/first.html"
+		],
+		"refer": [
+			"all-html/myedit.html",
+			"all-html/first.html"
+		]
+	}
+}
